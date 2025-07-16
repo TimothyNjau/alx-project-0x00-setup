@@ -8,11 +8,10 @@ const Landing: React.FC = () => {
             <Card />
             <Card />
             <Card />
-            <div className="flex justify-between w-[200px]">        
-            <Button title="Book" styles="rounded-sm"/>
-            <Button title="Book" styles="rounded-md"/>
-            <Button title="Book" styles="rounded-full"/>
-            </div>
+         
+            <Button title="Book Now" styles="rounded-sm"/>
+            <Button title="View Now" styles="rounded-md"/>
+            <Button title="Call Now" styles="rounded-full"/>
         </div>
     )
 }
